@@ -1,0 +1,168 @@
+/**** BASE STYLES ****/
+html {
+    font-size:16px;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/**** HEADER ****/
+header {
+  text-align: center;
+}
+header h1 {
+  font-size: 1.875em;
+  font-weight: bold;
+  color: #1b1b1b;
+  text-transform: uppercase;
+  padding: 25px 0;
+  border-bottom: 3px solid #77a466;
+}
+header h1 span {
+  color: #86ae77;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  color: #86ae77;
+  padding-left: 10px;
+  line-height: 3em;
+}
+
+/**** MAIN ****/
+.top-section {
+  font-size: 1.875em;
+}
+.top-section #main-page-image {
+  width: 100%;
+  border-bottom: 3px solid #77a466;
+  border-top: 3px solid #77a466;
+}
+.top-section .about {
+  text-transform: uppercase;
+  color: #86ae77;
+  font-size: .6em;
+  line-height: 1em;
+  font-weight: bold;
+}
+.top-section .description {
+  color: #1b1b1b;
+  font-size: .6em;
+  line-height: 1.3em;
+  margin-bottom: 40px;
+}
+
+/** Bottom Styles **/
+.bottom-section {
+  font-size: 1em;
+}
+.bottom-section .info-header {
+  text-transform: uppercase;
+  font-size: 1em;
+  line-height: 1.56em;
+  font-weight: bold;
+}
+.bottom-section .special-items {
+  font-size: 1em;
+  line-height: 2em;
+  color: #86ae77;
+}
+ul{
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 40px;
+}
+.bottom-section #reviews-text {
+  font-size: 1em;
+  line-height: 1.31em;
+  padding-right: 50px;
+  font-weight: lighter;
+  margin-bottom: 50px;
+}
+.bottom-section #address {
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-bottom: 20px;
+}
+
+
+/**** FOOTER ****/
+footer {
+  clear: both;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1em;
+  line-height: 1.4375em;
+  padding: 20px 0;
+}
+footer span{
+  text-transform: lowercase;
+  font-family: 'Cookie', cursive;
+  color: #86ae77;
+}
+
+@media all and (min-width: 940px) {
+
+html{
+  max-width: 1600px;
+}
+/**** GRID ****/
+  .full-width {
+    width: 99%;
+    margin: 0 auto;
+  }
+  .half-width {
+    width: 50%;
+    float: left;
+  }
+  .third-width {
+    width: 32%;
+    float: left;
+  }
+/** Header **/
+header {
+  height: 90px;
+  text-align: left;
+}
+nav{
+  float: right;
+  padding-top: 30px;
+  }
+  nav ul li {
+    display: inline-block;
+  }
+  header h1 {
+    border-bottom: none;
+    display: inline-block;
+  }
+.bottom-section #review {
+  padding-left: 10px;
+}
+.bottom-section .third-width {
+  border-top: 1px solid #f8f8f8;
+  padding: 10px;
+  height: 250px;
+  border-bottom: 1px solid #f8f8f8;
+}
+.bottom-section #specials {
+  border-right: 1px solid #f8f8f8;
+}
+
+.bottom-section #contact {
+  border-left: 1px solid #f8f8f8;
+  padding-left: 10px;
+}
+.bottom-section #reviews-text {
+  font-size: .8em;
+}
+}
